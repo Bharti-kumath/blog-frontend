@@ -7,7 +7,7 @@ import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import PPost from "../Ppost/pposts";
 
 export default function Carousel({posts}) {
-  const PF = "http://localhost:5000/images/";
+  const PF = "https://beyond-the-blog-api.onrender.com/images/";
   const NextArrow = ({ onClick }) => {
     return (
       <div className="arrow next" onClick={onClick}>

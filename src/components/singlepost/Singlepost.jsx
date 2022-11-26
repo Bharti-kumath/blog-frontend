@@ -11,8 +11,7 @@ export default function SinglePost() {
   const Location = useLocation();
   const path = Location.pathname.split("/")[2];
   const [posts, setPost] = useState({});
-  // const PF = "https://beyondthe-blog.herokuapp.com/images/";
-  const PF="http://localhost:5000/images/"
+  const PF="https://beyond-the-blog-api.onrender.com/images/"
   const { user } = useContext(Context);
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");

@@ -2,9 +2,8 @@ import "./ppost.css";
 import { Link } from "react-router-dom";
 
 export default function PPost({ post }) {
-  // const PF = "https://beyondthe-blog.herokuapp.com/images/";
   
-  const PF = "http://localhost:5000/images/";
+  const PF = "https://beyond-the-blog-api.onrender.com/images/";
 
   return (
     <div className="ppost">

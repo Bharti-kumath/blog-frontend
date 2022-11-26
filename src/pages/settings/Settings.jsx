@@ -13,7 +13,7 @@ export default function Settings() {
   const [password, setPassword] = useState("");
   const [success, setSuccess] = useState(false);
   // const PF = "https://beyondthe-blog.herokuapp.com/images/";
-  const PF = "http://localhost:5000/images/"
+  const PF = "https://beyond-the-blog-api.onrender.com/images/"
 
   const handlesubmit = async (e) => {
     e.preventDefault();
