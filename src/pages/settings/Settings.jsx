@@ -3,7 +3,7 @@ import image from "../../Images/fly.gif";
 import { useContext, useState } from "react";
 import { Context } from "../../components/context/Context";
 import axios from "axios";
-import { axiosInstance } from "../../config";
+// import { axiosInstance } from "../../config";
 
 export default function Settings() {
   const { user ,dispatch} = useContext(Context);
