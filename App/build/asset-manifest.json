@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bbe1b488.css",
+    "main.js": "/static/js/main.db31a349.js",
+    "static/media/blog1.jpg": "/static/media/blog1.16ea8dc10644d5a149f9.jpg",
+    "static/media/headergif.gif": "/static/media/headergif.c18028aa408f9c19e7d4.gif",
+    "static/media/fly.gif": "/static/media/fly.06381664fbf52e3fff14.gif",
+    "static/media/lotus.gif": "/static/media/lotus.9c757529f94a4b95f674.gif",
+    "static/media/zumba.gif": "/static/media/zumba.65488d61c10625d7db0c.gif",
+    "static/media/headphone.gif": "/static/media/headphone.e8c6a84a5b6f291528db.gif",
+    "static/media/deadlift.gif": "/static/media/deadlift.914b72006733dc1f7640.gif",
+    "static/media/plane.gif": "/static/media/plane.49e26ec99a1429577d99.gif",
+    "static/media/User.gif": "/static/media/User.8f7896713cbe51a0ab7f.gif",
+    "static/media/socket.gif": "/static/media/socket.77d3a2cf7d301875a4fb.gif",
+    "static/media/stairs.gif": "/static/media/stairs.14a9c5913168f7ce7893.gif",
+    "static/media/love.gif": "/static/media/love.dd78849790db34cf43ca.gif",
+    "static/media/book.gif": "/static/media/book.ade3db5b92659f6c226d.gif",
+    "static/media/nuggets.gif": "/static/media/nuggets.baa5a37d78599d5c311c.gif",
+    "index.html": "/index.html",
+    "main.bbe1b488.css.map": "/static/css/main.bbe1b488.css.map",
+    "main.db31a349.js.map": "/static/js/main.db31a349.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bbe1b488.css",
+    "static/js/main.db31a349.js"
+  ]
+}

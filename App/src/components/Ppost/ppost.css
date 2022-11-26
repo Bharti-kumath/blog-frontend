@@ -1,0 +1,158 @@
+.ppost {
+    width: 74%;
+    position: relative;
+    margin: 0 auto;
+    transition: 0.4s ease all;
+}
+.ppost:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.ppostimg {
+    
+    width: 50%;
+    height: 28rem;
+    max-height: 30rem;
+    object-fit: cover;
+    opacity: 1;
+    transition: transform 1s ease-in-out,opacity 1s ease-in-out;
+    transform: scale(1.5);
+    opacity: 0;
+    left: 0;
+    
+}
+.activeSlide .ppostimg {
+    overflow: hidden !important;
+    transform: scale(1);
+    opacity: 0.65;
+    transition: all 1.5s cubic-bezier(1,0.885,0.72,1);
+    transition-delay: 0.4s;
+}
+
+
+.ppostinfo {
+    position: absolute;
+    z-index: 4;
+    width: 34%;
+    background-color: rgb(224, 240, 247);
+    height: 80%;
+    padding: 20% 10% 0% 10%;
+    bottom: 0%;
+    right: 0;
+    text-align: center;
+    color: cornsilk;
+    font-weight: bolder;
+    
+    
+}
+
+
+.postback{
+    height: 100%;
+    overflow: hidden;
+    transform: translateY(80%);
+    transition: all 0.3s cubic-bezier(1, 0.885, 0.72, 1);
+   
+}
+.pposttitle {
+    text-transform: capitalize;
+    position: relative;
+    font-size: 3rem;
+    font-family: 'Josefin SAns', sans-serif;
+    font-weight: 700;
+    overflow: visible;
+    color: #030009;
+    transition: all;
+    
+    
+    
+}
+.activeSlide .pposttitle {
+    color: white;
+    text-shadow: -1px 2px 0 #000,1px 2px 0 #000,
+1px -1px 0 #000,
+-1px -1px 0 #000;
+transition: all 0.3s ease;
+transition-delay: 1s;
+        
+
+}
+
+.activeSlide .postback {
+    transform: translateY(0%);
+    
+    transition: all 0.8s cubic-bezier(1, 0.885, 0.72, 1);
+    transition-delay: 0.4s;
+    
+}
+
+
+
+
+
+.ppostpara {
+    width: 100%;
+    font-family: "Varela Round", sans-serif;
+    font-size: 1rem;
+    color: #000101;
+    line-height: 1.5rem;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-bottom: 2rem;
+
+    
+}
+.ppostdate {
+    margin-top: 0rem !important;
+    font-family: 'lora', serif;
+    font-style: italic;
+    color: rgb(0, 12, 12);
+    font-size: 1.3rem;
+    
+
+}
+
+
+.preadmore {
+    padding-top: 2rem;
+    transform: translateY(-2rem);
+    font-size: 30px;
+    color: rgb(253, 251, 251);
+    text-shadow: 0px 1px 5px black;
+    border-bottom: 1px solid rgb(9, 1, 1);
+
+}
+
+@media (max-width:52rem){
+    html{
+        font-size: 60%;
+    }
+    .ppostimg{
+        width: 100%;
+    }
+    .ppostinfo{
+        background: none;
+        width: 100%;
+        z-index: 4;
+        padding: 0;
+        
+    }
+    .postback{
+        padding: 2rem;
+    }
+    .pposttitle{
+        font-size: 2rem;
+    }
+    .ppostpara{
+        font-size: 1rem;
+    }
+    .preadmore{
+font-size: 2rem;
+    }
+    
+}
