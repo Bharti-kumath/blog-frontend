@@ -80,22 +80,28 @@
 .settingform label{
 font-size: 20px;
 margin-top: 15px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 .settingform input{
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: rgb(253, 250, 250);
     margin: 5px 0;
     width: 50%;
     height: 30px;
     border: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-bottom: 1px solid lightgray;
-    background-color: #62bbe6;
+    background-color: #62bbe6 !important;
     
 
 }
 .settingform input:focus{
     outline: none;
+    background-color: none;
+}
+.settingform input:-webkit-autofill{
+    background-color: none !important;
 }
 
 .formimg{
@@ -125,14 +131,28 @@ z-index: 1;
     font-size: 1.1rem;
 }
 @media (max-width:50rem){
-
-    .formimg{
-        top: 50%;
-        width: 70%;
-        right: 0;
-        transform: translateX(4rem);
+    .settingtitle{
+        justify-content: center;
     }
-    html{
-        overflow: hidden;
+    .settingform{
+        /* align-items: center; */
+    }
+    
+    .formimg{
+        position: absolute;
+        top: 16%;
+        z-index: 1;
+        width: 100%;
+        height: auto;
+        opacity: 0.3;
+    }
+    .settingform label , input{
+        align-self: flex-start;
+    }
+    
+}
+@media (max-width:25rem){
+    .formimg{
+        display: none;
     }
 }

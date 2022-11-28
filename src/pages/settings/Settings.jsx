@@ -60,7 +60,7 @@ export default function Settings() {
           <span className="updatetitle">Update Your Account</span>
           
         </div>
-        <form className="settingform" onSubmit={handlesubmit}>
+        <form className="settingform" onSubmit={handlesubmit} autoComplete="off">
           <label>Profile Picture</label>
           <div className="settingpp">
             <label htmlFor="fileInput">
