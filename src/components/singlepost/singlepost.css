@@ -37,13 +37,13 @@
     border: none;
     color: gray;
     text-align: center;
-    background-color: #95cde2;
+    background-color: #62bbe6;
 }
 
 .singleposttitleinput:focus{
     outline: none;
     border: none;
-    background-color: #95cde2;
+    background-color: #62bbe6;
 }
 
 .singlepostedit{
@@ -87,12 +87,13 @@ cursor: pointer;
     color: #666;
     font-size: 18px;
     line-height: 24px;
-    max-height: 150px !important;
-    background-color: #95cde2;
+    min-height:150px;
+    max-height: 350px !important;
+    background-color: #62bbe6;
 }
 .singlepostdescinput:focus{
     outline: none;
-    background-color: #95cde2;
+    background-color: #62bbe6;
 }
 .singlepostauthor b{
     text-transform: capitalize;
