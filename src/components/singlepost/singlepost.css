@@ -75,7 +75,6 @@ cursor: pointer;
     color: #666;
     font-size: 18px;
     line-height: 24px;
-    background-color: #95cde2;
 }
 .singlepostdesc::first-letter{
     margin-left: 40px;
@@ -130,7 +129,5 @@ cursor: pointer;
         text-align: left;
         font-size: 14px;
     }
-    .singleposttitle{
-        text-align: left;
-    }
+    
 }
